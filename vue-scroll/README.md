@@ -5,7 +5,7 @@
 ## 运行方式
 
 ### 下载插件
-将下载好的文件夹放到project/src/components中
+将下载好的文件夹放到```project/src/components```中
 ```javaScript
 git clone https://github.com/windlany/vue-plugins.git
 ```
