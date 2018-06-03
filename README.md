@@ -5,3 +5,7 @@
 - [演示demo](http://htmlpreview.github.io/?https://github.com/windlany/vue-plugins/blob/master/demo/index.html)
 - 上拉加载，下拉刷新
 - 支持自定义配置项
+
+## [lazy-load](https://github.com/windlany/vue-plugins/tree/master/vue-lazy-load)
+- [演示demo]()
+- 图片懒加载

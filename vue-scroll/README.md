@@ -1,5 +1,8 @@
 # vue-scroll
 
+上拉加载下拉刷新插件，适用于获取多页数据
+
+
 [演示demo](http://htmlpreview.github.io/?https://github.com/windlany/vue-plugins/blob/master/demo/index.html)
 
 ## 运行方式

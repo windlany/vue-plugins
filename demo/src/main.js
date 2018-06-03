@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 
-import scroll from "./components/vue-scroll";
+import scroll from "./components/vue-plugins/vue-scroll";
 Vue.use(scroll);
 
 new Vue({
