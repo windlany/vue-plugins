@@ -1,15 +1,15 @@
 # vue-scroll
 
-[演示demo]();
+[演示demo]()
 
 ## 运行方式
 
-#### 下载插件
+### 下载插件
 ```javaScript
 git clone 
 ```
 
-#### 在main.js中引入
+### 在main.js中引入
 将v-scroll插件注册到全局
 ```JavaScript
 // main.js
@@ -17,7 +17,7 @@ import vscroll from "相对位置";
 Vue.use(vscroll);
 ```
 
-#### 在单文件组件中使用
+### 在单文件组件中使用
 将希望上拉加载下拉刷新的页面放在```<v-scroll>```标签中，类似于这样
 ```JavaScript
 // list.vue
@@ -59,4 +59,4 @@ export default {
     }
 }
 ``` 
-请求成功后的数据可以出入自定义子组件使用 
+请求成功后的数据可以在自定义子组件中使用 
