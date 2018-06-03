@@ -1,19 +1,20 @@
 # vue-scroll
 
-[演示demo]()
+[演示demo](http://htmlpreview.github.io/?https://github.com/windlany/vue-plugins/blob/master/demo/index.html)
 
 ## 运行方式
 
 ### 下载插件
+将下载好的文件夹放到project/src/components中
 ```javaScript
-git clone 
+git clone https://github.com/windlany/vue-plugins.git
 ```
 
 ### 在main.js中引入
 将v-scroll插件注册到全局
 ```JavaScript
 // main.js
-import vscroll from "相对位置";
+import vscroll from "./components/vue-plugins/vue-scroll";
 Vue.use(vscroll);
 ```
 
