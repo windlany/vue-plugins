@@ -17,17 +17,16 @@ git clone https://github.com/windlany/vue-plugins.git
 将v-scroll插件注册到全局
 ```JavaScript
 // main.js
-import vscroll from "./components/vue-plugins/vue-scroll";
+import vscroll from "path/vue-plugins/vue-scroll";
 Vue.use(vscroll);
 ```
 
 ### 在单文件组件中使用
 将希望上拉加载下拉刷新的页面放在```<v-scroll>```标签中，类似于这样
-```JavaScript
-// list.vue
+```JavaScript 
 <template>
     <v-scroll @refreshData="refresh" @loadData="load" :configs="configs">
-        // some custom component
+        // some custom components
     </v-scroll>
 </template>
 ```

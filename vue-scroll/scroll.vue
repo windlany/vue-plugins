@@ -74,8 +74,8 @@
             }, 
             touchEnd(ev) {                    
                 if(this.refreshText || this.refreshFail) {  // 避免上拉加载时刷新
-                    this.$refs.header.style.height = "50px";
-                    this.$refs.header.style.lineHeight = "50px";
+                    this.$refs.header.style.height = "80px";
+                    this.$refs.header.style.lineHeight = "80px";
                     this.refreshText = this.refreshFail = false;
                     this.refreshLoad = true;
                     

@@ -24,13 +24,14 @@ export default {
 .test h1 {
     text-align: center;
     padding: 20px;
-    color: #333;
+    background-color: rgb(96, 182, 204);
+    color: #fff;
+    margin-bottom: 10px;
 }
 .test li {
-    color: #444;
+    color: rgb(96, 182, 204);
+    color: #555;
+    border-bottom: 1px #555 dashed;
     padding: 10px;
-}
-.test li:nth-child(2n-1) {
-    background-color: #ddd;
-}
+} 
 </style>

@@ -29,7 +29,7 @@ export default {
                 load: "",  // 加载时提示语
                 loadFail: "", // 加载失败提示语
 
-                cancelLoadTimeout: true, // 取消默认延迟
+                cancelLoadTimeout: false, // 取消默认延迟
                 cancelRefreshTimeout: false, // 默认延迟
             }
         }

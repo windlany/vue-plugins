@@ -2,13 +2,10 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
-import router from './router'
+import router from './router' 
 
-import scroll from "@/components/vue-plugins/vue-scroll";
-import lazy from "@/components/vue-plugins/lazy-load";
-
-Vue.use(scroll);
-Vue.use(lazy); 
+import plugins from "./components/vue-plugins";  // 注入插件
+Vue.use(plugins);
 
 Vue.config.productionTip = false
 

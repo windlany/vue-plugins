@@ -10,8 +10,8 @@ Vue.use(Router)
 
 export default new Router({
     routes: [
-        { path: '/', component: nav },
-        { path: '/vscroll', component: VScroll},
-        { path: '/lazyLoad', component: LazyLoad},
+        {path: '/', component: nav},
+        {path: '/vscroll', component: VScroll},
+        {path: '/lazyLoad', component: LazyLoad}
     ]
 })
