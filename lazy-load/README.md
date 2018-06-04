@@ -3,9 +3,9 @@
 图片懒加载插件
 
 
-[演示demo](http://htmlpreview.github.io/?https://github.com/windlany/vue-plugins/blob/master/demo/index.html)
+![](https://github.com/windlany/vue-plugins/tree/master/demo/static/show/lazyLoad.gif)
 
-## 运行方式
+## 使用方式
 
 ### 下载插件
 将下载好的文件夹放到```project/src/components```中
