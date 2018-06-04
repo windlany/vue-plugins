@@ -24,7 +24,7 @@ export default {
             clearTimeout(this.timer);
             this.timer = setTimeout(() => {
                 fn();
-            }, 1000);
+            }, 200);
         },
         loadImg() {
             var img = this.getImages(); 
