@@ -2,8 +2,8 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 import nav from '@/components/Nav'
-import VScroll from '@/components/scrollTest/list.vue';
-import LazyLoad from '@/components/scrollTest/list.vue';
+import VScroll from '../components/vscrollTest/list.vue';
+import LazyLoad from '../components/lazyLoadTest/useLazy.vue';
 
 
 Vue.use(Router)

@@ -28,6 +28,9 @@ export default {
                 refreshFail: "",  // 刷新失败提示语
                 load: "",  // 加载时提示语
                 loadFail: "", // 加载失败提示语
+
+                cancelLoadTimeout: true, // 取消默认延迟
+                cancelRefreshTimeout: false, // 默认延迟
             }
         }
     }, 

@@ -5,7 +5,10 @@ import App from './App'
 import router from './router'
 
 import scroll from "@/components/vue-plugins/vue-scroll";
+import lazy from "@/components/vue-plugins/lazy-load";
+
 Vue.use(scroll);
+Vue.use(lazy); 
 
 Vue.config.productionTip = false
 

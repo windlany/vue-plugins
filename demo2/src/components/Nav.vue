@@ -3,10 +3,8 @@
         <h1>demo list</h1>
         <ol>
             <li><router-link to="/vscroll">1、v-scroll</router-link></li>
-            <li><router-link to="//lazyLoad">2、lazy-load</router-link></li>
+            <li><router-link to="/lazyLoad">2、lazy-load</router-link></li>
         </ol>
-        
-        
     </div>
 </template>
 

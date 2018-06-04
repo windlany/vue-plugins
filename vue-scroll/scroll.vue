@@ -78,9 +78,14 @@
                     this.$refs.header.style.lineHeight = "50px";
                     this.refreshText = this.refreshFail = false;
                     this.refreshLoad = true;
-                    setTimeout(()=> {
+                    
+                    if(this.configs.cancelRefreshTimeout) {
                         this.refresh();
-                    }, 2000);
+                    } else {
+                        setTimeout(()=> {
+                            this.refresh();
+                        }, 2000);
+                    } 
                 } else {
                     this.$refs.header.style.height = "0px";
                 }
@@ -106,10 +111,14 @@
                 // 滑动到页面最底端
                 if(window.screen.height + scrollBody.scrollTop >= scrollBody.scrollHeight) {
                     this.loading = true;
-                    setTimeout(() => {
+                    if(this.configs.cancelLoadTimeout) {
                         this.load();
-                    }, 1000);
-                } 
+                    } else {
+                        setTimeout(() => {
+                            this.load();
+                        }, 1000);
+                    } 
+                }
             }, 
             load() {
                 fetch(this.configs.loadUrl + this.configs.page).then(res=> {
@@ -126,9 +135,13 @@
             reload() { // 重新加载
                 this.loading = true;
                 this.fail = false;
-                setTimeout(() => {
+                if(this.configs.cancelLoadTimeout) {
                     this.load();
-                }, 1000);
+                } else {
+                    setTimeout(() => {
+                        this.load();
+                    }, 1000);
+                }
             }, 
         }
     }

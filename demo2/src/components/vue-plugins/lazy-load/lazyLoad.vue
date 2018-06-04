@@ -1,11 +1,20 @@
 <template>
     <div class="lazyLoad">
-        <slot><slot>
+        <slot></slot>
     </div>
 </template>
 
 <script>
-    
+export default {
+    data() {
+        return {
+
+        }
+    },
+    created() {
+        
+    }
+}
 </script>
 
 <style>

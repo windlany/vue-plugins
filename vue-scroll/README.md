@@ -38,16 +38,19 @@ configs: {  // 传入自定义配置项
     // 必填项
 
     // 上拉加载的最终url是：loadUrl + page
-    page: 1,  // 请求页数
-    loadUrl: "",  // 上拉加载url
-    refreshUrl: "",  // 下拉刷新url
+    page: Number,  // 请求页数
+    loadUrl: String,  // 上拉加载url
+    refreshUrl: String,  // 下拉刷新url
 
     // 非必填项
-    refreshText: "", // 刷新前提示语
-    refreshLoad: "",  // 刷新时提示语
-    refreshFail: "",  // 刷新失败提示语
-    load: "",  // 加载时提示语
-    loadFail: "", // 加载失败提示语
+    refreshText: String, // 刷新前提示语
+    refreshLoad: String,  // 刷新时提示语
+    refreshFail: String,  // 刷新失败提示语
+    load: String,  // 加载时提示语
+    loadFail: String, // 加载失败提示语
+
+    cancelLoadTimeout: Boolean,  // 取消默认延迟
+    cancelRefreshTimeout: Boolean  // 取消默认延迟
 }
 ```
 - 数据处理方法
@@ -63,4 +66,4 @@ export default {
     }
 }
 ``` 
-请求成功后的数据可以在自定义子组件中使用 
+请求成功后的数据可以在自定义子组件中使用  
