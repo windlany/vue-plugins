@@ -22,7 +22,7 @@ Vue.use(lazy);
 ```
 
 ### 在单文件组件中使用
-将希望懒加载的页面放在```<lazy-load>```标签中，类似于这样
+将希望懒加载的页面放在```<lazy-load>```标签中（注意：是一整个页面而不是页面的某个片段），类似于这样
 ```JavaScript 
 <template>
     <div class="useLazy">

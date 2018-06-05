@@ -1,7 +1,7 @@
 <template>
     <div class="useLazy">
         <lazy-load>
-            <h1>Lazy-load Demo</h1>
+            <h1>lazy-load Demo</h1>
             <ul>
                 <li v-for="(src, index) in imgs" :key="index">
                     <img class="lazyImg" src="##" :datasrc="src">

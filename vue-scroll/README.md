@@ -22,12 +22,14 @@ Vue.use(vscroll);
 ```
 
 ### 在单文件组件中使用
-将希望上拉加载下拉刷新的页面放在```<v-scroll>```标签中，类似于这样
+将希望上拉加载下拉刷新的页面放在```<v-scroll>```标签中（注意：必须是一整个页面的内容都放进来，而不要只放一个片段），类似于这样
 ```JavaScript 
 <template>
-    <v-scroll @refreshData="refresh" @loadData="load" :configs="configs">
-        // some custom components
-    </v-scroll>
+    <div>
+        <v-scroll @refreshData="refresh" @loadData="load" :configs="configs">
+            // some custom components
+        </v-scroll> 
+    </div>
 </template>
 ```
 该插件接收一个对象、两个方法：

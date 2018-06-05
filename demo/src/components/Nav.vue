@@ -4,6 +4,7 @@
         <ol>
             <li><router-link to="/vscroll">1、v-scroll（上拉加载下拉刷新）</router-link></li>
             <li><router-link to="/lazyLoad">2、lazy-load（图片懒加载）</router-link></li> 
+            <li><router-link to="/dragDrop">3、drag-drop（拖拽）</router-link></li> 
         </ol>
     </div>
 </template>
