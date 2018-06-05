@@ -1,7 +1,7 @@
 # vue plugins
 一些封装的关于vue的插件
 
-[演示demo]((https://github.com/windlany/vue-plugins/tree/master/demo/static/show/all.gif))
+[演示demo]((https://github.com/windlany/vue-plugins/blob/master/demo/static/show/all.gif))
 
 ## 预览效果
 ```JavaScript
