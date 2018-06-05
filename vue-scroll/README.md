@@ -3,7 +3,7 @@
 上拉加载下拉刷新插件，适用于获取多页数据
 
 ## 效果图
-![](https://github.com/windlany/vue-plugins/tree/master/demo/static/show/vscroll.gif)
+![](https://github.com/windlany/vue-plugins/blob/master/demo/static/show/vscroll.gif)
 
 ## 使用方式
 
