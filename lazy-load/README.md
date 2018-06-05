@@ -3,8 +3,8 @@
 图片懒加载插件
 
 
-![](https://github.com/windlany/vue-plugins/tree/master/demo/static/show/lazyLoad.gif)
-
+![](https://github.com/windlany/vue-plugins/blob/master/demo/static/show/lazyLoad.gif)
+ 
 ## 使用方式
 
 ### 下载插件
