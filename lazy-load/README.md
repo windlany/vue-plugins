@@ -2,7 +2,7 @@
 
 图片懒加载插件
 
-
+## 效果图
 ![](https://github.com/windlany/vue-plugins/blob/master/demo/static/show/lazyLoad.gif)
  
 ## 使用方式
